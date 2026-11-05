@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin – MiniShop</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="logo">⚙️ MiniShop Admin</div>
+    <nav><a href="index.html">← Về cửa hàng</a><span id="who"></span><button class="btn" id="logoutBtn" hidden>Đăng xuất</button></nav>
+  </header>
+
+  <!-- Màn hình đăng nhập -->
+  <main id="loginView">
+    <div class="login-box">
+      <h1>Đăng nhập quản trị</h1>
+      <form id="loginForm" novalidate>
+        <div class="field"><label for="u">Tên đăng nhập</label><input id="u" autocomplete="username" required></div>
+        <div class="field"><label for="pw">Mật khẩu</label><input id="pw" type="password" autocomplete="current-password" required></div>
+        <span class="msg bad" id="loginMsg"></span>
+        <button class="btn primary block" type="submit">Đăng nhập</button>
+      </form>
+      <p class="hint">Tài khoản nhân viên lấy từ <code>data/employees.json</code> (VD: admin / admin123).</p>
+    </div>
+  </main>
+
+  <!-- Dashboard -->
+  <main id="dashView" class="admin-wrap" hidden>
+    <div class="tabs" id="tabs">
+      <button class="btn on" data-tab="orders">📦 Quản lý đơn hàng</button>
+      <button class="btn" data-tab="stats">📊 Thống kê đơn hàng</button>
+      <button class="btn" data-tab="products">🏆 Sản phẩm được bán</button>
+    </div>
+    <div id="tab-orders" class="panel"></div>
+    <div id="tab-stats" hidden></div>
+    <div id="tab-products" class="panel" hidden></div>
+  </main>
+
+  <footer><p>© 2026 MiniShop – Sinh viên thực hiện: <strong>Lê Trọng Phúc</strong> – MSSV: <strong>K244161802</strong></p></footer>
+  <div id="modal" class="modal" hidden><div class="modal-box"><button class="modal-close" aria-label="Đóng">×</button><div id="modalBody"></div></div></div>
+  <script src="js/common.js"></script>
+  <script src="js/admin.js"></script>
+</body>
+</html>

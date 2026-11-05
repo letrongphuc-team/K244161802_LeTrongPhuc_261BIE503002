@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carts>
+  <cart id="HD001" date="2026-09-22" employee_id="E02" customer_id="C01">
+    <item product_id="12" quantity="1" color="Xám" size="" price="114"/>
+  </cart>
+  <cart id="HD002" date="2026-09-08" employee_id="E01" customer_id="C07">
+    <item product_id="17" quantity="1" color="Đỏ" size="M" price="39.99"/>
+    <item product_id="13" quantity="2" color="Xanh dương" size="" price="599"/>
+    <item product_id="18" quantity="1" color="Xanh dương" size="L" price="9.85"/>
+    <item product_id="5" quantity="2" color="Đen" size="" price="695"/>
+  </cart>
+  <cart id="HD003" date="2026-09-18" employee_id="E03" customer_id="C04">
+    <item product_id="3" quantity="3" color="Xám" size="S" price="55.99"/>
+    <item product_id="5" quantity="2" color="Trắng" size="" price="695"/>
+  </cart>
+  <cart id="HD004" date="2026-09-11" employee_id="E04" customer_id="C03">
+    <item product_id="9" quantity="1" color="Xám" size="" price="64"/>
+    <item product_id="7" quantity="3" color="Đen" size="" price="9.99"/>
+    <item product_id="20" quantity="2" color="Xám" size="M" price="12.99"/>
+    <item product_id="6" quantity="1" color="Đen" size="" price="168"/>
+  </cart>
+  <cart id="HD005" date="2026-09-28" employee_id="E04" customer_id="C04">
+    <item product_id="10" quantity="2" color="Vàng" size="" price="109"/>
+    <item product_id="5" quantity="3" color="Trắng" size="" price="695"/>
+  </cart>
+  <cart id="HD006" date="2026-09-12" employee_id="E03" customer_id="C03">
+    <item product_id="11" quantity="2" color="Trắng" size="" price="109"/>
+    <item product_id="18" quantity="2" color="Xanh dương" size="L" price="9.85"/>
+    <item product_id="5" quantity="1" color="Trắng" size="" price="695"/>
+    <item product_id="2" quantity="3" color="Xám" size="S" price="22.3"/>
+  </cart>
+  <cart id="HD007" date="2026-09-03" employee_id="E02" customer_id="C06">
+    <item product_id="18" quantity="1" color="Đen" size="S" price="9.85"/>
+    <item product_id="9" quantity="3" color="Đen" size="" price="64"/>
+    <item product_id="12" quantity="1" color="Xám" size="" price="114"/>
+  </cart>
+  <cart id="HD008" date="2026-09-13" employee_id="E04" customer_id="C10">
+    <item product_id="19" quantity="2" color="Đen" size="L" price="7.95"/>
+  </cart>
+  <cart id="HD009" date="2026-09-03" employee_id="E04" customer_id="C07">
+    <item product_id="3" quantity="2" color="Xanh dương" size="S" price="55.99"/>
+    <item product_id="11" quantity="2" color="Đen" size="" price="109"/>
+    <item product_id="4" quantity="1" color="Trắng" size="XL" price="15.99"/>
+    <item product_id="19" quantity="3" color="Xám" size="S" price="7.95"/>
+  </cart>
+  <cart id="HD010" date="2026-09-17" employee_id="E03" customer_id="C01">
+    <item product_id="4" quantity="3" color="Xám" size="M" price="15.99"/>
+    <item product_id="13" quantity="3" color="Xanh dương" size="" price="599"/>
+    <item product_id="5" quantity="1" color="Đỏ" size="" price="695"/>
+  </cart>
+</carts>

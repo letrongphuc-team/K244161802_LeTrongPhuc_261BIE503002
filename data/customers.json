@@ -1,0 +1,94 @@
+{
+  "customers": [
+    {
+      "id": "C01",
+      "name": "Nguyễn Văn An",
+      "username": "kh01",
+      "password": "kh01@123",
+      "phone": "0998351594",
+      "email": "kh01@example.com",
+      "address": "161 Nguyễn Trãi, Quận 10, TP.HCM"
+    },
+    {
+      "id": "C02",
+      "name": "Trần Thị Bình",
+      "username": "kh02",
+      "password": "kh02@123",
+      "phone": "0912112345",
+      "email": "kh02@example.com",
+      "address": "92 Nguyễn Trãi, Quận 1, TP.HCM"
+    },
+    {
+      "id": "C03",
+      "name": "Lê Hoàng Cường",
+      "username": "kh03",
+      "password": "kh03@123",
+      "phone": "0955811820",
+      "email": "kh03@example.com",
+      "address": "181 Nguyễn Trãi, Quận 2, TP.HCM"
+    },
+    {
+      "id": "C04",
+      "name": "Phạm Thu Dung",
+      "username": "kh04",
+      "password": "kh04@123",
+      "phone": "0958945665",
+      "email": "kh04@example.com",
+      "address": "32 Nguyễn Trãi, Quận 3, TP.HCM"
+    },
+    {
+      "id": "C05",
+      "name": "Võ Minh Đạt",
+      "username": "kh05",
+      "password": "kh05@123",
+      "phone": "0987397629",
+      "email": "kh05@example.com",
+      "address": "21 Nguyễn Trãi, Quận 4, TP.HCM"
+    },
+    {
+      "id": "C06",
+      "name": "Đặng Ngọc Hân",
+      "username": "kh06",
+      "password": "kh06@123",
+      "phone": "0991925832",
+      "email": "kh06@example.com",
+      "address": "140 Nguyễn Trãi, Quận 4, TP.HCM"
+    },
+    {
+      "id": "C07",
+      "name": "Bùi Quốc Huy",
+      "username": "kh07",
+      "password": "kh07@123",
+      "phone": "0980889318",
+      "email": "kh07@example.com",
+      "address": "15 Nguyễn Trãi, Quận 1, TP.HCM"
+    },
+    {
+      "id": "C08",
+      "name": "Hoàng Thị Lan",
+      "username": "kh08",
+      "password": "kh08@123",
+      "phone": "0964243797",
+      "email": "kh08@example.com",
+      "address": "49 Nguyễn Trãi, Quận 1, TP.HCM"
+    },
+    {
+      "id": "C09",
+      "name": "Ngô Thanh Mai",
+      "username": "kh09",
+      "password": "kh09@123",
+      "phone": "0999062368",
+      "email": "kh09@example.com",
+      "address": "168 Nguyễn Trãi, Quận 8, TP.HCM"
+    },
+    {
+      "id": "C10",
+      "name": "Đỗ Gia Nam",
+      "username": "kh10",
+      "password": "kh10@123",
+      "phone": "0947722355",
+      "email": "kh10@example.com",
+      "address": "87 Nguyễn Trãi, Quận 8, TP.HCM"
+    }
+  ]
+}

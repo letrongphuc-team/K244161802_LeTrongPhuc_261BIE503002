@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MiniShop – Cửa hàng trực tuyến</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Câu 2: Semantic HTML5 -->
+  <header class="site-header">
+    <div class="logo">🛍️ MiniShop</div>
+    <nav aria-label="Menu chính">
+      <a href="index.html" class="on">Cửa hàng</a>
+      <a href="admin.html">Quản trị (Admin)</a>
+      <a href="tools.html">Công cụ dữ liệu</a>
+      <div class="cart-wrap">
+        <button id="cartBtn" type="button">🛒 Giỏ hàng <span id="cartCount">0</span></button>
+        <div id="miniCart" class="mini-cart" hidden></div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="layout">
+    <aside aria-label="Tìm kiếm nâng cao">
+      <h2>🔎 Tìm kiếm nâng cao</h2>
+      <form id="searchForm">
+        <div class="field">
+          <label for="kw">Từ khóa</label>
+          <input id="kw" name="kw" type="search" maxlength="50" pattern="[\p{L}\p{N}\s\-]*" title="Chỉ nhập chữ, số, khoảng trắng hoặc dấu gạch ngang (tối đa 50 ký tự)" placeholder="VD: jacket">
+        </div>
+        <div class="field">
+          <label>Khoảng giá ($)</label>
+          <div class="row2">
+            <input id="pmin" name="pmin" type="number" required min="0" max="10000" step="0.01" value="0" aria-label="Giá từ" title="Giá từ 0 đến 10000">
+            <input id="pmax" name="pmax" type="number" required min="0" max="10000" step="0.01" value="10000" aria-label="Giá đến" title="Giá từ 0 đến 10000">
+          </div>
+        </div>
+        <div class="field">
+          <label for="color">Màu sắc</label>
+          <select id="color" name="color" required>
+            <option value="all">Tất cả màu</option><option>Đen</option><option>Trắng</option><option>Đỏ</option><option>Xanh dương</option><option>Xám</option><option>Vàng</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="rating">Rating tối thiểu (0 – 5 sao)</label>
+          <input id="rating" name="rating" type="number" required min="0" max="5" step="0.5" value="0">
+        </div>
+        <div class="field">
+          <label for="cat">Danh mục</label>
+          <select id="cat" name="cat" required><option value="all">Tất cả danh mục</option></select>
+        </div>
+        <button class="btn primary block" type="submit">Tìm kiếm</button>
+        <button class="btn block" type="reset" id="resetBtn" style="margin-top:6px">Xóa bộ lọc</button>
+      </form>
+    </aside>
+
+    <section id="productSection" aria-labelledby="ttl">
+      <div class="promo-ticker" role="region" aria-label="Thông báo khuyến mãi">
+        <div class="promo-ticker-track">
+          <span>✨ Ưu đãi tuần này: giảm đến 30% cho sản phẩm nổi bật <b>✦</b> Miễn phí vận chuyển cho đơn từ $50 <b>✦</b> Chọn món yêu thích, nhận quà xinh!</span>
+          <span aria-hidden="true">✨ Ưu đãi tuần này: giảm đến 30% cho sản phẩm nổi bật <b>✦</b> Miễn phí vận chuyển cho đơn từ $50 <b>✦</b> Chọn món yêu thích, nhận quà xinh!</span>
+        </div>
+      </div>
+      <h1 id="ttl">Danh sách sản phẩm</h1>
+      <p id="resultInfo">Đang tải dữ liệu…</p>
+      <!-- Câu 4: chỉ 1 Event Listener trên container này -->
+      <div id="productGrid" class="grid"></div>
+    </section>
+  </div>
+
+  <footer>
+    <p>© 2026 MiniShop – Sinh viên thực hiện: <strong>Lê Trọng Phúc</strong> – MSSV: <strong>K244161802</strong></p>
+  </footer>
+
+  <div id="modal" class="modal" hidden><div class="modal-box"><button class="modal-close" aria-label="Đóng">×</button><div id="modalBody"></div></div></div>
+
+  <script src="js/common.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/checkout.js"></script>
+  <script src="js/store.js"></script>
+</body>
+</html>

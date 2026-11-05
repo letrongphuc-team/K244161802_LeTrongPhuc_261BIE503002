@@ -1,0 +1,32 @@
+{
+  "employees": [
+    {
+      "id": "E01",
+      "name": "Lê Trọng Phúc",
+      "username": "admin",
+      "password": "admin123",
+      "role": "Quản lý"
+    },
+    {
+      "id": "E02",
+      "name": "Nguyễn Thị Hoa",
+      "username": "nv02",
+      "password": "nv02@123",
+      "role": "Nhân viên bán hàng"
+    },
+    {
+      "id": "E03",
+      "name": "Trần Minh Khang",
+      "username": "nv03",
+      "password": "nv03@123",
+      "role": "Nhân viên bán hàng"
+    },
+    {
+      "id": "E04",
+      "name": "Phạm Quỳnh Anh",
+      "username": "nv04",
+      "password": "nv04@123",
+      "role": "Thu ngân"
+    }
+  ]
+}
